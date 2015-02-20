@@ -1,0 +1,182 @@
+/* culoare ce imi place #39b1cc */
+* {
+	font-family: 'Roboto', sans-serif;	
+	/*	font-family: 'Ubuntu', sans-serif; */
+	margin:0;
+	padding:0;
+}
+
+body{
+	padding-top: 25px;
+	margin: 0px 10px 0px 10px;
+	background-color: #F5F5F5;
+}
+
+/* HEADER START */
+.header{
+	margin-bottom: 10px;
+}
+
+.brand-banner{
+	width: 450px;
+	height: 120px;
+}
+
+.header h2{
+	font-size: 18px;
+	color: #959595;
+	padding-top: 50px;
+	font-weight: lighter;
+}
+
+.phone p{
+	color: #4670CF;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+}
+
+.glyphicon {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.social{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+/* HEADER STOP */
+
+
+/* NAVIGATION START */
+.navigation{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+div ul li{
+	background-image: url("bg.png");
+	font-weight: 500;
+	font-size: 15px;
+	padding-right: 1px;
+	padding-left: 1px;
+	margin: 0px 0px 0px 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+ .dropdown-menu {
+ 	margin-top: 0;
+ 	padding-top: 0;
+ }
+
+.active {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.inactive{
+	background-color: #DCDCDC;
+	border-radius: 5%;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+
+.dropdown-produse{
+	min-width: 100px;
+	max-width: 250px;
+}
+
+.submenu{
+	text-transform: capitalize;
+}
+
+.submenu img{
+	height: 25px;
+	width: 36px;
+	padding-right: 10px;
+}
+/* NAVIGATION STOP */
+
+/* HOME START */
+.meniu-reclama-banner {
+	margin-top: 20px;
+}
+
+.banner1{
+	width: 72.5%;
+	border-radius: 1%;
+}
+
+.noutati{
+	width: 25%;
+}
+
+.div-scroll{
+	max-height: 473px;
+	overflow-y: scroll;
+}
+
+#noutati-ultimele{
+	color: #DB9D29;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#noutati-noutati{
+	color: #2979DB;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.noutati-data{
+	font-size: 10px;
+	color: #B1B1B1;
+}
+
+/* HOME STOP */
+
+/* PRODUSE START */
+.img-prezentare-produs{
+	padding-right: 10px;
+	height: 50px;
+	top: 50px;
+}
+
+.prezentare-produs h2{
+	color: #1B2B4F;
+	font-size: 24px;
+}
+
+.prezentare-produs p{
+	color: gray;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.btn-prezentare-produs{
+	position: relative;
+	bottom: 0px;
+}
+
+.caret{
+	margin-left: 10px;
+}
+/* PRODUSE STOP */
+
+/* FOOTER START */
+footer div{
+	border-top: 1px solid gray;
+	margin-top: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: gray;
+}
+/* FOOTER STOP */
